@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadro{
+    display: grid;
+    grid-template-columns: 140px 140px;
+    grid-template-rows: repeat(3, 50px);
+    border: 3px dashed #000000;
+    border-radius: 15px;
+    border-color: blueviolet;
+}
+
+.col2{
+    grid-column: span 2;
+
+}
+
+.pokemon{
+    display: grid;
+    grid-template-columns: 283px;
+    grid-template-rows: 150px 250px repeat(6, 50px);
+
+}
+
+img{
+    padding-top: 15px;
+    border: 2px solid yellow;
+}
+
+button{
+    margin: 10px;
+    border-radius: 5px;
+}
+
+label{
+    background-color: red;
+    border: 3px solid black;
+    font-family: 'Times New Roman', Times, serif;
+}
